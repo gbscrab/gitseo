@@ -290,6 +290,11 @@ h3 {
   .imagenContacto {
     margin-left: 50px;
   }
+  /*formulario de contacto*/
+  label {
+    font-size: 18px;
+    font-family: "Bebas Neue";
+  }
   /*DEGRADE EN CONTACTOS*/
   .contactos {
     background-color: #f89b9e;
@@ -297,11 +302,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  /*formulario de contacto*/
-  label {
-    font-size: 18px;
-    font-family: "Bebas Neue";
   }
   .header-flex {
     display: flex;
