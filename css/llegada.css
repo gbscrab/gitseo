@@ -294,6 +294,8 @@ h3 {
   label {
     font-size: 18px;
     font-family: "Bebas Neue";
+    margin-bottom: 15px;
+    margin-right: 300px;
   }
   /*DEGRADE EN CONTACTOS*/
   .contactos {
