@@ -9,6 +9,7 @@ $violeta: rgb(131, 37, 69);
 
 body {
     background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");
+
     nav {
         text-align: center;
         font-size: 30px;
@@ -26,6 +27,7 @@ body {
         }
     }
 }
+
 h3 {
     color: rgb(99, 63, 81);
 
@@ -57,6 +59,7 @@ h3 {
         }
 
     }
+
     /*formulario de contacto*/
     label {
         margin-left: 350px;
@@ -64,12 +67,14 @@ h3 {
         font-size: 35px;
         font-family: 'Bebas Neue';
     }
+
     /*propiedades de los titulos*/
     .header-flex {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
+
     header {
         h1 {
             color: $violeta;
@@ -77,38 +82,45 @@ h3 {
             font-family: 'Major Mono Display';
             padding-top: 30px;
         }
+
         h2 {
             color: $violeta;
             font-size: 30px;
             font-family: 'Satisfy';
         }
     }
+
     .descripcion-flex {
         display: flex;
         justify-content: center;
         padding: 10px;
     }
+
     h4 {
         color: $violeta;
         font-size: 35px;
         font-family: 'Bebas Neue';
     }
+
     h5 {
         color: rgb(92, 47, 112);
         font-size: 20px;
         font-family: 'Bebas Neue';
     }
+
     /*propiedades de las descripciones de productos*/
     article {
         text-align: center;
         font-size: 30px;
         margin: 100px;
     }
+
     p {
         color: $violeta;
         font-size: 20px;
         font-family: 'Bebas Neue';
     }
+
     /*DEGRADE EN CONTACTOS*/
     .contactos {
         background-color: #f89b9e;
@@ -125,14 +137,17 @@ h3 {
         animation-duration: 3s;
         animation-iteration-count: 1;
     }
+
     @keyframes texto {
         from {
             transform: translateX(1200px);
         }
+
         to {
             transform: translate(0);
         }
     }
+
     /*propiedades de las imagenes-productos*/
     /*TRANSICION*/
     .imagenDos {
@@ -141,11 +156,13 @@ h3 {
         margin: 20px;
         transition: all 2s;
     }
+
     .imagenDos:hover {
         width: 300px;
         height: 500px;
         border: solid 20px $violeta;
     }
+
     .imagenIndex {
         width: 150px;
         height: 250px;
@@ -156,16 +173,19 @@ h3 {
         ;
         transition: all 2s;
     }
+
     .imagenLunar {
         width: 350px;
         height: 550px;
         margin-left: 400px;
         padding: 50px;
     }
+
     .imagenIndex:hover {
         width: 225px;
         height: 375px;
     }
+
     .imagenContacto {
         width: 350px;
         height: 250px;
@@ -179,6 +199,7 @@ h3 {
         margin-left: 1000px;
         transform: translateY(-1030px);
     }
+
     /*fondo imagen*/
 
     div {
@@ -206,22 +227,23 @@ h3 {
 
 @media (min-width:481px) and (max-width:1023px) {
 
- /*DEGRADE EN CONTACTOS*/
- .contactos {
-    background-color: #f89b9e;
-    background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    /*DEGRADE EN CONTACTOS*/
+    .contactos {
+        background-color: #f89b9e;
+        background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
     /*formulacio en contactos*/
     label {
-        margin-left: 220px;
+
         margin-bottom: 15px;
         font-size: 35px;
         font-family: 'Bebas Neue';
     }
+
     .header-flex {
         display: flex;
         flex-direction: column;
@@ -310,16 +332,14 @@ h3 {
         padding: 50px;
     }
 
-    .imagenContacto {
-        margin-left: 270px;
-    }
+
 }
 
 /*smartphone*/
 
 @media (max-width:480px) {
 
- /*DEGRADE EN CONTACTOS*/
+    /*DEGRADE EN CONTACTOS*/
     .contactos {
         background-color: #f89b9e;
         background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);

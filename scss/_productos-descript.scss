@@ -45,13 +45,4 @@ p {
     @include tamañito(370px, 190px);
     margin: 40px;
 }
-.imagenContacto {
-    @include tamañito(350px, 250px);
-}
-.consulta {
-    @include tamañito(420px, 260px);
-}
-.emailNombre {
-    @include tamañito(400px, 20px);
-}
 
