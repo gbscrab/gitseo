@@ -227,6 +227,20 @@ h3 {
 
 @media (min-width:481px) and (max-width:1023px) {
 
+    /***************MAP****************/
+    $colores: (h4: rgb(199, 165, 238),
+        h5: rgb(190, 218, 204),
+        p: rgb(167, 201, 198),
+    );
+
+    @each $nombre,
+    $valor in $colores {
+        #{$nombre} {
+            background-color: $valor;
+        }
+
+    }
+
     /*DEGRADE EN CONTACTOS*/
     .contactos {
         background-color: #f89b9e;
@@ -338,6 +352,19 @@ h3 {
 /*smartphone*/
 
 @media (max-width:480px) {
+
+
+    /***************MAP****************/
+    $colores: (h4: rgb(199, 165, 238),
+        h5: rgb(190, 218, 204),
+        p: rgb(167, 201, 198),
+    );
+    @each $nombre,
+    $valor in $colores {
+        #{$nombre} {
+            background-color: $valor;
+        }
+    }
 
     /*DEGRADE EN CONTACTOS*/
     .contactos {
