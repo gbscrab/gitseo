@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");
+  background-color: white;
 }
 body nav {
   text-align: center;
@@ -35,13 +35,15 @@ body nav ul {
 }
 
 h3 {
-  color: rgb(99, 63, 81);
+  color: rgb(66, 64, 64);
+  font-family: "Bebas Neue";
+  font-size: 60px;
   text-align: center;
   padding: 50px;
   margin-top: 20px;
   margin-bottom: 40px;
-  background-image: url(https://www.arquitecturaydiseno.es/medio/2022/03/19/apertura-macrame_84504a26_1280x794.jpg);
-  background-position: 60px;
+  background-image: url(https://i.ytimg.com/vi/esy4B7jmXqs/maxresdefault.jpg);
+  background-position: 70%;
   background-repeat: no-repeat;
   background-position-x: center;
 }
@@ -50,13 +52,15 @@ h3 {
 @media (min-width: 1024px) {
   /***************MAP****************/
   h4 {
-    background-color: rgb(199, 165, 238);
-  }
-  h5 {
-    background-color: rgb(190, 218, 204);
+    background-color: rgb(223, 218, 230);
   }
   p {
-    background-color: rgb(167, 201, 198);
+    background-color: rgb(250, 225, 200);
+  }
+  /**productos **/
+  .card {
+    margin-left: 510px;
+    font-size: 35px;
   }
   /*formulario de contacto*/
   label {
@@ -72,13 +76,13 @@ h3 {
     align-items: flex-end;
   }
   header h1 {
-    color: rgb(131, 37, 69);
-    font-size: 60px;
+    color: rgb(131, 21, 89);
+    font-size: 70px;
     font-family: "Major Mono Display";
-    padding-top: 30px;
+    text-align: center;
   }
   header h2 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 30px;
     font-family: "Satisfy";
   }
@@ -88,7 +92,7 @@ h3 {
     padding: 10px;
   }
   h4 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 35px;
     font-family: "Bebas Neue";
   }
@@ -104,7 +108,7 @@ h3 {
     margin: 100px;
   }
   p {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 20px;
     font-family: "Bebas Neue";
   }
@@ -141,7 +145,7 @@ h3 {
   .imagenDos:hover, .imagenIndexDos:hover {
     width: 300px;
     height: 500px;
-    border: solid 20px rgb(131, 37, 69);
+    border: solid 20px rgb(131, 21, 89);
   }
   .imagenIndex {
     width: 150px;
@@ -178,7 +182,7 @@ h3 {
   div {
     background-color: rgb(250, 244, 249);
     margin: 15px;
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 30px;
     font-family: "Satisfy";
   }
@@ -196,13 +200,15 @@ h3 {
 @media (min-width: 481px) and (max-width: 1023px) {
   /***************MAP****************/
   h4 {
-    background-color: rgb(199, 165, 238);
-  }
-  h5 {
-    background-color: rgb(190, 218, 204);
+    background-color: rgb(223, 218, 230);
   }
   p {
-    background-color: rgb(167, 201, 198);
+    background-color: rgb(250, 225, 200);
+  }
+  /**productos **/
+  .card {
+    margin-left: 310px;
+    font-size: 35px;
   }
   /*DEGRADE EN CONTACTOS*/
   .contactos {
@@ -224,18 +230,18 @@ h3 {
     align-items: flex-end;
   }
   h1 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 40px;
     font-family: "Major Mono Display";
     padding-top: 30px;
   }
   h2 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 30px;
     font-family: "Satisfy";
   }
   h4 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 25px;
     font-family: "Bebas Neue";
   }
@@ -251,7 +257,7 @@ h3 {
   div {
     background-color: rgb(250, 244, 249);
     margin: 15px;
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 30px;
     font-family: "Satisfy";
   }
@@ -262,7 +268,7 @@ h3 {
     margin: 100px;
   }
   p {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 30px;
     font-family: "Bebas Neue";
   }
@@ -295,13 +301,10 @@ h3 {
 @media (max-width: 480px) {
   /***************MAP****************/
   h4 {
-    background-color: rgb(199, 165, 238);
-  }
-  h5 {
-    background-color: rgb(190, 218, 204);
+    background-color: rgb(223, 218, 230);
   }
   p {
-    background-color: rgb(167, 201, 198);
+    background-color: rgb(250, 225, 200);
   }
   /*DEGRADE EN CONTACTOS*/
   .contactos {
@@ -317,19 +320,19 @@ h3 {
     align-items: flex-end;
   }
   h1 {
-    color: rgb(131, 37, 69);
-    font-size: 40px;
+    color: rgb(131, 21, 89);
+    font-size: 32px;
     font-family: "Major Mono Display";
   }
   h2 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 25px;
     font-family: "Satisfy";
     margin-left: 200px;
     padding: 10x;
   }
   h4 {
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 25px;
     font-family: "Bebas Neue";
   }
@@ -345,15 +348,9 @@ h3 {
   div {
     background-color: rgb(250, 244, 249);
     margin: 18px;
-    color: rgb(131, 37, 69);
+    color: rgb(131, 21, 89);
     font-size: 30px;
     font-family: "Satisfy";
-  }
-  #grilla-areas {
-    display: grid;
-    grid-template-areas: "cabeza" "cuello " "productos" "productosDos ";
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr;
   }
 }
 /*propiedades de las descripciones de productos*/
@@ -364,7 +361,7 @@ article {
 }
 
 p {
-  color: rgb(167, 71, 130);
+  color: rgb(179, 79, 129);
   font-size: 30px;
   font-family: "Bebas Neue";
 }

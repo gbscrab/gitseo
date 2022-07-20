@@ -18,23 +18,43 @@
 
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">DreamCrabtcher</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promociones.html">Promociones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
   <header class="header-flex">
     <h1> DreamCrabtcher</h1>
     <h2>tejemos con mucho amor</h2>
-
   </header>
-
-
-  <nav class="menu-flex">
-
-    <ul><a href="../index.html"> Home </a></ul>
-    <ul><a href="productos.html"> productos</a></ul>
-    <ul><a href="promociones.html">promociones </a></ul>
-    <ul><a href="sobre-nosotros.html">sobre nosotros</a></ul>
-    <ul><a href="contacto.html">contacto</a></ul>
-
-  </nav>
-
   <h3 id="subtitulo">Contacto </h3>
   <h4>¡Te dejamos nuestras redes sociales y telefonos para que nos contactes!</h4>
 
@@ -44,17 +64,18 @@
     <h5>Seguinos en instagram y facebook como "DreamCrabtcher Store"</h5>
 
     <div class="mb-3">
-      
+
       <label for="exampleFormControlInput1" class="form-label">E-mail </label>
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tu email">
     </div>
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="dejanos tu consulta aqui"></textarea>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+        placeholder="dejanos tu consulta aqui"></textarea>
       <button type="button" class="btn btn-outline-danger"> Enviar </button>
     </div>
 
-  
+
   </main>
   <footer>Desarrollado por Gisela Salazar </footer>
   <script src="../js/bootstrap.js"></script>
